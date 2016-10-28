@@ -5,6 +5,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
     .gitattributes
-    .gitignore)
+    .gitignore main.cpp main.h)
 
 add_executable(pic_flame ${SOURCE_FILES})
